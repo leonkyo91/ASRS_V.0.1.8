@@ -251,7 +251,9 @@
             // 
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // Leon test --->
             this.timer1.Enabled = true;
+            // Leon <---
             // 
             // frmASRS
             // 
